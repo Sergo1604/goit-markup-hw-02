@@ -6,27 +6,56 @@
   --bcgr-dark-color: #2f303a;
   --bcgr-light-color: #e5e5e5;
   --bcgr-button-color: #f5f4fa;
+  --bcgr-header-color: #ffffff;
 }
 
 .body-class {
   color: var(--txt-main-color);
-  font-family: 'Roboto', 'Raleway';
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  background-color: var(--bcgr-light-color);
 }
 
 .body-class li {
   list-style-type: none;
 }
 
+.header-class {
+  width: 1600px;
+  height: 80px;
+  background-color: var(--bcgr-header-color);
+}
+
 .header-class a {
+  color: inherit;
   text-decoration: none;
-  color: var(--txt-main-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-class li {
-  font-size: 14px;
-  font-weight: 500;
+
+
+.logo-header-class {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer-class {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--txt-light-color);
+}
+
+.logo-color {
+  color: var(--act-color);
 }
 
 .solution-class {
@@ -37,81 +66,153 @@
   line-height: 1.4;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 0.06em;
+
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 }
 
 .solution-class button {
   background-color: var(--act-color);
   color: var(--txt-light-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.875;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   text-align: center;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
   cursor: pointer;
 }
 
-.feature-class {
-  background-color: var(--bcgr-light-color);
+.feature-class h2 {
+  display: none;
 }
 
-.feature-class h3 {
+.ul-feature-class {
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+  display: flex;
+}
+
+.ul-feature-class h3 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2px;
+  line-height: 1.143px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.feature-class p {
+.ul-feature-class p {
   color: var(--txt-sec-color);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
 }
 
-.feature-class h2 {
+.feature-photo-class {
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+
+.feature-photo-class h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.167;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.ul-class li {
-  display: inline;
+.ul-photo-class {
+  display: flex;
 }
 
 .our-team-class {
   background-color: var(--bcgr-button-color);
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
 }
+
 .our-team-class h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.167;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .our-team-class h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2px;
+  line-height: 1.1875px;
+  letter-spacing: 0.03em;
 }
 
 .our-team-class p {
   color: var(--txt-sec-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2px;
+  line-height: 1.1875px;
+  letter-spacing: 0.03em;
+}
+
+.ul-our-team-class {
+  width: 1170px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  display: flex;
 }
 
 .pf-main-class button {
   background-color: var(--bcgr-button-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
+
 }
 
 .pf-main-class p {
   color: var(--txt-sec-color);
 }
+
+.our-work-class h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.our-work-class p {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+}
+
 
 .pf-main-class button:hover,
 .pf-main-class button:focus {
