@@ -1,65 +1,136 @@
-:root{
-  --brand-col
+:root {
+  --txt-main-color: #212121;
+  --txt-sec-color: #757575;
+  --txt-light-color: #ffffff;
+  --act-color: #2196f3;
+  --bcgr-dark-color: #2f303a;
+  --bcgr-light-color: #e5e5e5;
+  --bcgr-button-color: #f5f4fa;
 }
 
 .body-class {
-  color: #212121;
+  color: var(--txt-main-color);
+  font-family: 'Roboto', 'Raleway';
 }
+
 .body-class li {
   list-style-type: none;
 }
+
 .header-class a {
   text-decoration: none;
-  color: #212121;
+  color: var(--txt-main-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header-class li {
-  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
 }
+
 .solution-class {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--bcgr-dark-color);
+  color: var(--txt-light-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
 }
+
 .solution-class button {
-  background-color: #2196f3;
-  color: #ffffff;
-  border: 0;
+  background-color: var(--act-color);
+  color: var(--txt-light-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  text-align: center;
   cursor: pointer;
 }
-.feature-class p {
-  color: #757575;
+
+.feature-class {
+  background-color: var(--bcgr-light-color);
 }
+
+.feature-class h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2px;
+  text-transform: uppercase;
+}
+
+.feature-class p {
+  color: var(--txt-sec-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.feature-class h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.ul-class li {
+  display: inline;
+}
+
+.our-team-class {
+  background-color: var(--bcgr-button-color);
+}
+.our-team-class h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.our-team-class h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2px;
+}
+
 .our-team-class p {
-  color: #757575;
+  color: var(--txt-sec-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2px;
 }
 
 .pf-main-class button {
-  background-color: EEEEEE;
+  background-color: var(--bcgr-button-color);
   border: 0;
   cursor: pointer;
 }
 
 .pf-main-class p {
-  color: #757575;
+  color: var(--txt-sec-color);
 }
 
 .pf-main-class button:hover,
 .pf-main-class button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--act-color);
+  color: var(--txt-light-color);
 }
 
 .footer-class {
-  background-color: #2f303a;
+  background-color: var(--bcgr-dark-color);
 }
 
 .footer-class a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--txt-light-color);
 }
+
 .header-class a:hover,
 .header-class a:focus,
 .footer-class a:hover,
 .footer-class a:focus {
-  color: #2196f3;
+  color: var(--act-color);
 }
