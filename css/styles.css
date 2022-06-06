@@ -1,0 +1,65 @@
+:root{
+  --brand-col
+}
+
+.body-class {
+  color: #212121;
+}
+.body-class li {
+  list-style-type: none;
+}
+.header-class a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.header-class li {
+  display: inline;
+}
+.solution-class {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.solution-class button {
+  background-color: #2196f3;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+.feature-class p {
+  color: #757575;
+}
+.our-team-class p {
+  color: #757575;
+}
+
+.pf-main-class button {
+  background-color: EEEEEE;
+  border: 0;
+  cursor: pointer;
+}
+
+.pf-main-class p {
+  color: #757575;
+}
+
+.pf-main-class button:hover,
+.pf-main-class button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.footer-class {
+  background-color: #2f303a;
+}
+
+.footer-class a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.header-class a:hover,
+.header-class a:focus,
+.footer-class a:hover,
+.footer-class a:focus {
+  color: #2196f3;
+}
