@@ -24,7 +24,6 @@
 
 .header-class {
   width: 1600px;
-  height: 80px;
 }
 
 .logo-header-class {
@@ -35,7 +34,7 @@
   letter-spacing: 0.03em;
 }
 
-.header-class a {
+.ul-header-contacts-class a {
   color: inherit;
   text-decoration: none;
   font-size: 14px;
@@ -50,12 +49,10 @@
   flex-direction: row;
 }
 
-.nav-class .ul-contacts-class {
+.ul-header-contacts-class {
   display: flex;
   flex-direction: row;
 }
-
-
 
 .logo-footer-class {
   font-family: "Raleway";
@@ -274,9 +271,9 @@
   display: block;
 }
 
-.footer-class a {
+.ul-footer-contacts-class a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.143;
