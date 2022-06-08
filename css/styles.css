@@ -11,8 +11,11 @@
 
 .body-class {
   color: var(--txt-main-color);
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  background-color: var(--bcgr-light-color);
+  font-family: "Roboto", "Raleway", sans-serif;
+  position: relative;
+  width: 1600px;
+  height: 2349px;
+  background: var(--bcgr-header-color);
 }
 
 .body-class li {
@@ -22,7 +25,14 @@
 .header-class {
   width: 1600px;
   height: 80px;
-  background-color: var(--bcgr-header-color);
+}
+
+.logo-header-class {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .header-class a {
@@ -35,18 +45,20 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-
-.logo-header-class {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+.header-class .nav-class {
+  display: flex;
+  flex-direction: row;
 }
 
+.nav-class .ul-contacts-class {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
 .logo-footer-class {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -92,6 +104,8 @@
   left: 700px;
   top: 430px;
   cursor: pointer;
+
+  display: block;
 }
 
 .feature-class h2 {
@@ -103,7 +117,13 @@
   height: 101px;
   left: 215px;
   top: 774px;
+
   display: flex;
+  flex-direction: row;
+}
+
+.ul-feature-class li {
+  display: block;
 }
 
 .ul-feature-class h3 {
@@ -137,8 +157,13 @@
   letter-spacing: 0.03em;
 }
 
+.ul-photo-class li {
+  display: block;
+}
+
 .ul-photo-class {
   display: flex;
+  flex-direction: row;
 }
 
 .our-team-class {
@@ -172,12 +197,17 @@
   letter-spacing: 0.03em;
 }
 
+.ul-our-team-class li {
+  display: block;
+}
+
 .ul-our-team-class {
   width: 1170px;
   height: 368px;
   left: 215px;
   top: 1635px;
   display: flex;
+  flex-direction: row;
 }
 
 .pf-main-class button {
@@ -192,11 +222,19 @@
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-
 }
 
 .pf-main-class p {
   color: var(--txt-sec-color);
+}
+
+.our-work-class li {
+  display: block;
+}
+
+.our-work-class {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .our-work-class h2 {
@@ -208,11 +246,19 @@
 
 .our-work-class p {
   font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 
+.pf-main-class button {
+  display: block;
+}
+
+.filter-class {
+  display: flex;
+  flex-direction: row;
+}
 
 .pf-main-class button:hover,
 .pf-main-class button:focus {
@@ -224,9 +270,17 @@ letter-spacing: 0.03em;
   background-color: var(--bcgr-dark-color);
 }
 
+.footer-class li {
+  display: block;
+}
+
 .footer-class a {
   text-decoration: none;
-  color: var(--txt-light-color);
+  color: rgba(255, 255, 255, 0.6)
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
 }
 
 .header-class a:hover,
