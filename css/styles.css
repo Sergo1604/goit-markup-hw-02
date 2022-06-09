@@ -11,7 +11,7 @@
 
 .body-class {
   color: var(--txt-main-color);
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   width: 1600px;
   background: var(--bcgr-header-color);
 }
@@ -34,13 +34,19 @@
 
 .ul-header-contacts-class a,
 .ul-header-nav-class a {
-  color: inherit;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.ul-header-contacts-class a {
+  color: var(--txt-sec-color);
+}
+.ul-header-nav-class a {
+  color: inherit;
 }
 
 .nav-class {
@@ -83,7 +89,7 @@
   line-height: 1.4;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  text-align: center;
+  /*text-align: center;*/
 
   display: block;
   margin-left: auto;
@@ -102,6 +108,7 @@
   align-items: center;
   letter-spacing: 0.06em;
 
+  border: 0px;
   width: 200px;
   height: 50px;
   display: block;
@@ -218,10 +225,13 @@
 
 .pf-main-class button {
   background-color: var(--bcgr-button-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  /*box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+   border-radius: 4px;*/
   border: 0;
-  border-radius: 4px;
+
+  font-family: inherit;
+  color:inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -237,6 +247,11 @@
 .our-work-class li {
   display: block;
   margin-right: 30px;
+}
+
+.our-work-class a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .our-work-class {
@@ -260,10 +275,12 @@
 }
 
 .pf-main-class button {
+
   display: block;
   margin-right: 10px;
   padding: 6px 22px;
 
+  font-size: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -291,6 +308,7 @@
   background-color: var(--bcgr-dark-color);
   height: 250px;
   display: block;
+  padding-top: 60px;
 }
 
 .footer-class a {
@@ -305,7 +323,6 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--txt-light-color);
-  display: block;
 }
 
 .ul-footer-contacts-class a {
@@ -315,6 +332,10 @@
   font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.03em;
+}
+
+a.adress-class {
+  color: var(--txt-light-color);
 }
 
 .footer-class li {
