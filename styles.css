@@ -1,0 +1,352 @@
+:root {
+  --txt-main-color: #212121;
+  --txt-sec-color: #757575;
+  --txt-light-color: #ffffff;
+  --act-color: #2196f3;
+  --bcgr-dark-color: #2f303a;
+  --bcgr-light-color: #e5e5e5;
+  --bcgr-button-color: #f5f4fa;
+  --bcgr-header-color: #ffffff;
+}
+
+.body-class {
+  color: var(--txt-main-color);
+  font-family: "Roboto", sans-serif;
+  width: 1600px;
+  background: var(--bcgr-header-color);
+}
+
+.body-class li {
+  list-style-type: none;
+}
+
+.logo-header-class {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 215px;
+}
+
+.ul-header-contacts-class a,
+.ul-header-nav-class a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.ul-header-contacts-class a {
+  color: var(--txt-sec-color);
+}
+.ul-header-nav-class a {
+  color: inherit;
+}
+
+.nav-class {
+  display: flex;
+  flex-direction: row;
+}
+
+.ul-header-contacts-class {
+  display: flex;
+  flex-direction: row;
+  margin-left: 140px;
+}
+
+.ul-header-nav-class {
+  display: flex;
+  flex-direction: row;
+  margin-left: 93px;
+}
+
+.ul-header-contacts-class li,
+.ul-header-nav-class li {
+  margin-right: 50px;
+}
+
+.logo-color {
+  color: var(--act-color);
+}
+
+.solution-class {
+  background-color: var(--bcgr-dark-color);
+  height: 600px;
+  display: block;
+  padding-top: 200px;
+}
+
+.solution-class .h1-class {
+  color: var(--txt-light-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  /*text-align: center;*/
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.solution-class button {
+  background-color: var(--act-color);
+  color: var(--txt-light-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  border: 0px;
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.feature-class h2 {
+  display: none;
+}
+
+.feature-class {
+  width: 1170px;
+  height: 101px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ul-feature-class {
+  display: flex;
+  flex-direction: row;
+}
+
+.ul-feature-class li {
+  display: block;
+  width: 270px;
+}
+
+.ul-feature-class h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.ul-feature-class p {
+  color: var(--txt-sec-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.feature-photo-class {
+  width: 1170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-photo-class h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.ul-photo-class li {
+  display: block;
+  margin-right: 30px;
+}
+
+.ul-photo-class {
+  display: flex;
+  flex-direction: row;
+}
+
+.our-team-class {
+  background-color: var(--bcgr-button-color);
+}
+
+.our-team-class h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-class h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.our-team-class p {
+  color: var(--txt-sec-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.ul-our-team-class li {
+  display: block;
+  margin-right: 30px;
+}
+
+.ul-our-team-class {
+  width: 1170px;
+  height: 368px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pf-main-class button {
+  background-color: var(--bcgr-button-color);
+  /*box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+   border-radius: 4px;*/
+  border: 0;
+
+  font-family: inherit;
+  color:inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.pf-main-class p {
+  color: var(--txt-sec-color);
+}
+
+.our-work-class li {
+  display: block;
+  margin-right: 30px;
+}
+
+.our-work-class a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.our-work-class {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 180px;
+}
+
+.our-work-class h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.our-work-class p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+.pf-main-class button {
+
+  display: block;
+  margin-right: 10px;
+  padding: 6px 22px;
+
+  font-size: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter-class {
+  display: flex;
+  flex-direction: row;
+  margin-left: 495px;
+}
+
+.pf-main-class .h1-class {
+  display: none;
+}
+
+.pf-main-class button:hover,
+.pf-main-class button:focus {
+  background-color: var(--act-color);
+  color: var(--txt-light-color);
+}
+
+.footer-class {
+  background-color: var(--bcgr-dark-color);
+  height: 250px;
+  display: block;
+  padding-top: 60px;
+}
+
+.footer-class a {
+  padding-top: 60px;
+  padding-left: 215px;
+}
+
+.logo-footer-class {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--txt-light-color);
+}
+
+.ul-footer-contacts-class a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+}
+
+a.adress-class {
+  color: var(--txt-light-color);
+}
+
+.footer-class li {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: -35px;
+}
+
+.header-class a:hover,
+.header-class a:focus,
+.footer-class a:hover,
+.footer-class a:focus {
+  color: var(--act-color);
+}
